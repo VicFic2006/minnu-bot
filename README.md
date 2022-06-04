@@ -1,5 +1,5 @@
 # [![Minnu Bot](https://i.imgur.com/lA9kjZR.png)](https://github.com/VicFic2006/minnu-bot) Minnu Bot
-# Minnu Bot
+
 A simple discord bot which uses slash commands.
 
 ## Installing
