@@ -9,10 +9,10 @@ class about(commands.Cog):
     @app_commands.command(name="help", description="shows help")
     async def help(self, interaction: discord.Interaction):
         embedVar = discord.Embed(
-        title="I am Minnu",
-        description="I am a simple bot created by VicFic",
+        title="Minnu Bot",
+        description="I am a simple bot created by VicFic. Source: https://github.com/VicFic2006/minnu-bot",
         color=0xC7DDFC)
-#        embedVar.set_image(url = '')
+        embedVar.set_image(url = 'https://i.imgur.com/BLN3a1f.png')
         embedVar.add_field(name="GENERAL COMMANDS", value="`/help` `/hello` `/ping` `/getpfp`", inline=False)
         embedVar.add_field(name="YOUTUBE COMMANDS", value=" `/play` `/stop`", inline=False)
         await interaction.response.send_message(embed=embedVar)
